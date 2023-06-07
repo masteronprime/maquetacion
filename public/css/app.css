@@ -1,7 +1,7 @@
 
 body{
     box-sizing: content-box;
-    font-family: 'palatino-bold';
+    font-family:'palatino-blod';
     font-weight: bold;
     min-height: 100vh;
     justify-content: center;
@@ -133,8 +133,8 @@ body{
     font-weight:bolder;
 }
 .contenedortexto2{
-    top:290px;
-    left: 30px;
+    top:280px;
+    left: 20px;
     height: 150px;
     width: 150px;
     color:black;
@@ -149,6 +149,7 @@ body{
 .resaltado{
     font-size: 25px;
     color: #FABD04;
+    font-family: "platino roman";
 }
 .formulario{
     margin-top: 30px;
@@ -167,7 +168,7 @@ body{
     font-weight: bold;
 }
 .texto3{
-    margin-top: 170px;
+    margin-top: 200px;
     height: 140px;
     width: 220px;
     position: absolute;
@@ -188,30 +189,28 @@ body{
 
 }
 .texto2pag2{
-    width: 450px;
+    width: 500px;
     height: 200px;
-    font-family: 'palatino-roman-regular';
+    font-size: 18px;
 }
 .titulo2{
     color: #FABD04;
 }    
 .figura3 {
-    border-width: 10px;
-    border-color: #FABD04;
-    width: 500px;
-    height: 300px;
     position: absolute;
+    z-index: 97;
     top: 60px;
-    left: 650px;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 14% 79%);
-    border-bottom-left-radius: 200px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: #0049FF;
-    box-shadow: 
-        -5px 0px 10px 0px #FABD04,
-        5px 0px 0px 0px #FABD04;
+    left: 550px;
+      
+}
+.figuratexto{
+    height: 80px;
+    width: 275px;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    font-family: "palatino-roman";
+    text-align: right;
 }
 
 .comillas{
@@ -219,12 +218,11 @@ body{
     height: 40px;
     position: absolute;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 80px;
 
 }
 /*parte 2 de la 2 pagina*/
 .contenedor3{
-    width: 250vh;
     height: 300px;
     background-color: #E6E7E6;
     position: relative;
@@ -254,6 +252,10 @@ body{
   font-size: 15px;
 
 }
+.h3mod{
+    font-family:"palatino-bold";
+    font-weight: bold;
+}
 /*siguiente parte de la pagina */
 .contenedor4{
     margin-top: 3vh;
@@ -262,7 +264,7 @@ body{
     box-sizing: border-box;
     background-size: cover;
     flex-wrap: wrap;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 .logo1{
@@ -270,7 +272,7 @@ body{
     width: 120px;
     height: 100px;
     top: 70px;
-    left: 50px;
+    left: 30px;
 }
 .logo1texto{
     position: absolute;
@@ -304,7 +306,7 @@ body{
     color: white;
     line-height: 15px;
     top: -20px;
-    right: 700px;
+    right: 400px;
 
 
 }
@@ -321,7 +323,7 @@ body{
     color: white;
     line-height: 15px;
     top: -20px;
-    right: 540px;
+    right: 240px;
 
 
 }
@@ -359,4 +361,294 @@ body{
     color: #FABD04;
     font-weight: bold;
     line-height: 20px;
+}
+.figura4{
+    position: absolute;
+    right:0;
+    top: -100px;
+    color: white;
+
+
+
+}
+.textofigurasvg{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 40px;
+    font-family: 'palatino-bold';
+
+}
+.svgtexto1{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    width: 295px;
+    height: 244;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+.svg2{
+    position: absolute;
+    right:250px;
+    top: 500px;
+    opacity: 70%;
+
+}
+.titulosvg2{
+    position: absolute;
+    color: #FABD04;
+    font-weight: bold;
+    top:40px;
+    left: 90px;
+    font-size: 35px;
+}
+.imagenessvg2{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.titulosvg3{
+    position: absolute;
+    color: #FABD04;
+    font-weight: bold;
+    top:90px;
+    left: 10px;
+    font-size: 20px;
+    width: 250px;
+}
+.svgimg2{
+    margin-left: 20px;
+    position: relative;
+}
+/*parte 3era de la pagina */
+.contenedor5{
+    margin-top: 3vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    box-sizing: border-box;
+    height: 700px;
+    position: relative;
+}
+.textocont5{
+    width: 350px;
+    height: 80px;
+    color: #FABD04;
+    font-size: 26px;
+    font-family: 'palatino-bold';
+
+
+}
+.texto1cont5{
+    width: 900px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+
+
+}
+.figuras3{
+    height: 600px; 
+}
+.rectangulo1{
+    position: absolute;
+    left: 30px;
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #E5E5E5;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.rectangulo2{
+    position: absolute;
+    right: 0;
+    width: 450px;
+    height: 200px;
+    right: 30px;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+
+}
+.rectangulo3{
+    position: absolute;
+    left: 30px;
+    top: 380px;
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    
+    background-color: #E5E5E5;
+}
+.rectangulo4{
+    position: absolute;
+    right: 0;
+    width: 450px;
+    top: 380px;
+    height: 200px;
+    right: 30px;
+    border-radius: 20px;
+    border: 2px solid #E5E5E5;
+    font-weight: normal;
+    line-height: 20px;
+}
+.btn{
+    color: white;
+    background-color: #FABD04;
+    position: relative;
+
+    left: 55vh;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.botton3{
+    position: relative;
+    top: -100px;
+    height: 200px;
+
+}
+.compu{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.textocompu{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+}
+.tcompu{
+    font-size: 20px;
+    color: #FABD04;
+    font-weight: bold;
+}
+.contenedor6{
+    height: 520px;
+    position: relative;
+    top: -40px;
+    margin-right: 5vh;
+    margin-left: 10vh;
+
+}
+.personas{
+    position: absolute;
+    top: -60px;
+    right: -100px;
+    
+
+}
+
+.containersub1{
+    background-color: black;
+    margin-top: 3vh;
+    height: 400px;
+    position: relative;
+}
+.textocont6{
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    color: #FABD04;
+    font-size: 30px;
+    font-family: 'palatino-bold';
+    top: 40px;
+    left: 300px;
+}
+.ing{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+.textocont7{
+    position: absolute;
+    top: 130px;
+    right: 300px;
+}
+.textonegro{
+    color: white;
+    font-weight: normal;
+
+
+}
+.tituloing{
+    color: #FABD04;
+    font-size: 30px;
+}
+.contenedor7{
+    height: 520px;
+    position: relative;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    background-color: aqua;
+
+}
+.texto5{
+    position: absolute;
+    top:50px;
+    color: #FABD04;
+    left: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.texto6{
+    position: absolute;
+    top:100px;
+    color: black;
+    left: 200px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.botton4{
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    background-color: #FABD04;
+    top: 160px;
+    left: 100px;
+    border-radius:50px;
+}
+.textop{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 20px;
+    color: white;
+}
+.numero1{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+
+}
+.menos{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.ptexto2{
+    position: absolute;
+    width: 720px;
+    height: 100px;
+    top: 260px;
+    left: 150px;
+    background-color: #1BD741;
+}
+.ptexto3{
+    line-height: 40px;
+}
+.ptextoprincipal{
+    font-size: 18px;
+    font-weight: normal;
+    font-family:'palatino-blod';
 }
