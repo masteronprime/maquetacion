@@ -2,22 +2,13 @@
 body{
     box-sizing: content-box;
     font-family:'palatino-blod';
-    font-weight: bold;
     min-height: 100vh;
     justify-content: center;
 
     
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-  }
-  .contenedor-contactos{
+
+.contenedor-contactos{
     background-color: #0049FF;
     width: 200px;
     height: 70px;
@@ -32,6 +23,7 @@ body{
 .resaltado2{
     color: black;
     font-family: 'palatino-roman-regular';
+
 }
 #navbar{
     position: relative;
@@ -39,7 +31,13 @@ body{
 #cabecera{
     position: relative;
 }
+.logoempresa{
+    position: relative;
+    width :200px;
+    height:60px;
 
+
+}
 #nav1{
    margin-left: 1vb;
    margin-right: 3vh;
@@ -69,8 +67,21 @@ body{
     height: 600px;
     position: relative;
 }
-.yahoo{
+
+.google{
     position: relative;
+
+}
+.bing{
+    position: absolute;
+    left: 150px;
+   
+}
+.yahoo{
+    top: 160px;
+    position: absolute;
+    left:260px
+    
 }
 #titulo1{
     font-weight: bolder;
@@ -100,9 +111,10 @@ body{
     height: 440px;
     background-color: #FABD04;
     color: white;
-    top: 30px;
+    top: 40px;
     right: 5px;
     position: absolute;
+    display: block;
 
 }
 .nombre1{
@@ -113,6 +125,11 @@ body{
     margin-top: 5%;
     font-style: italic;
     margin-left: 5%;
+    
+}
+.textocuadrot{
+    font-size: 20px;
+
 }
 .figura2{
     border-bottom-left-radius: 10px;
@@ -152,10 +169,10 @@ body{
     font-family: "platino roman";
 }
 .formulario{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 100%;
     height: 100;
-    line-height: 40px;
+    line-height: 35px;
 
 }
 #enviar{
@@ -163,10 +180,48 @@ body{
     width: 120px;
     height: 35px;
     text-align: center;
-    margin-left: 100px;
+    border: none;
+    margin-left: 80px;
     font-size: 10px;
     font-weight: bold;
 }
+.mensaje{
+    font-size: 13px;
+    font-style: normal;
+}
+.nombre{
+    background-color: transparent;
+    border: none;
+    width: 260px;
+    height: 14px;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.apellido{
+    background-color: transparent;
+    border: none;
+    width: 260px;
+    height: 14px;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.correo{
+    background-color: transparent;
+    border: none;
+    height: 14px;
+    width: 260px;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.numero{
+    background-color: transparent;
+    border: none;
+    height: 14px;
+    width: 260px;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
 .texto3{
     margin-top: 200px;
     height: 140px;
@@ -222,16 +277,24 @@ body{
 
 }
 /*parte 2 de la 2 pagina*/
-.contenedor3{
+.contenedorprincipal4{
     height: 300px;
     background-color: #E6E7E6;
     position: relative;
 
 
 }
+.contenedor3{
+     margin-top: 3vh;
+     margin-right: 5vh;
+     margin-left: 10vh;
+     height: 400px;
+     position: relative;
+
+}
 .laptop{
     position: absolute;
-    left: 300px;
+    left: 0;
     top: 40px;
 
 }
@@ -239,7 +302,7 @@ body{
     width: 450px;
     height: 100px;
     position: absolute;
-    left: 700px;
+    left: 500px;
     top: 60px;
 }
 .texto4{
@@ -306,7 +369,7 @@ body{
     color: white;
     line-height: 15px;
     top: -20px;
-    right: 400px;
+    right: 200px;
 
 
 }
@@ -323,7 +386,7 @@ body{
     color: white;
     line-height: 15px;
     top: -20px;
-    right: 240px;
+    right: 0;
 
 
 }
@@ -367,14 +430,12 @@ body{
     right:0;
     top: -100px;
     color: white;
-
-
-
 }
+
 .textofigurasvg{
     position: absolute;
     top: 50px;
-    left: 40px;
+    left: 60px;
     font-size: 40px;
     font-family: 'palatino-bold';
 
@@ -382,17 +443,18 @@ body{
 .svgtexto1{
     position: absolute;
     top: 100px;
-    left: 40px;
-    width: 295px;
+    left: 60px;
+    width: 310px;
     height: 244;
     font-size: 20px;
     font-weight: normal;
     text-align: left;
+    font-size: 20px;
 }
 .svg2{
     position: absolute;
-    right:250px;
-    top: 500px;
+    right:200px;
+    top: 400px;
     opacity: 70%;
 
 }
@@ -413,16 +475,67 @@ body{
     position: absolute;
     color: #FABD04;
     font-weight: bold;
-    top:90px;
-    left: 10px;
-    font-size: 20px;
-    width: 250px;
+    top:70px;
+    left: -40px;
+    font-size: 17px;
+    width: 180px;
+
+}
+.svgimg{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: -40px;
+    top: 20px;
 }
 .svgimg2{
-    margin-left: 20px;
+    top: 15px;
+    width: 110px;
+    height: 60px;
+    left: 180px;
+    position: absolute;
+
+}
+.svgimg3{
+    top: 15px;
+    width: 120px;
+    height: 60px;
+    left: 350px;
+    position: absolute;
+    
+}
+.listatexto{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 320px;
+    left: 100px;
+}
+.check2{
     position: relative;
+    margin-top: 50px;
+
+}
+.textolista{
+    position: absolute;
+    font-size: 18px;
+    top: 50px;
+    width: 300px;
+    left: 40px;
+    line-height: 23px;
+}
+.exclamacion{
+    position: absolute;
+    top: -30px;
+    right: 3px;
+}
+#h3mod2{
+    position: absolute;
+    font-size: 18px;
+    color: #FABD04;
 }
 /*parte 3era de la pagina */
+
 .contenedor5{
     margin-top: 3vh;
     margin-right: 5vh;
@@ -503,23 +616,21 @@ body{
 .btn{
     color: white;
     background-color: #FABD04;
-    position: relative;
-
-    left: 55vh;
+    position: absolute;
     width: 200px;
     border-radius: 10px;
+    bottom: -300px;
+    left: 400px;
     
 }
 .botton3{
     position: relative;
-    top: -100px;
     height: 200px;
 
 }
 .compu{
     position: absolute;
     top: 40px;
-    left: 20px;
 }
 .textocompu{
     position: absolute;
@@ -546,12 +657,40 @@ body{
     
 
 }
-
-.containersub1{
+.ul{
+    position: absolute;
+    top: 300px;
+}
+.ul1{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+.checkfinal{
+    width: 15px;
+    height: 15px;
+}
+.personastext{
+    position: absolute;
+    color: #FABD04;
+    font-size: 30px;
+    font-weight: bold;
+    top: 230px;
+    left: 40px;
+}
+.contenedorpadre{
     background-color: black;
-    margin-top: 3vh;
     height: 400px;
     position: relative;
+
+}
+
+.containersub1{
+    height: 600px;
+    position: relative;
+    margin-right: 5vh;
+    margin-left: 10vh;
+
 }
 .textocont6{
     position: absolute;
@@ -561,7 +700,7 @@ body{
     font-size: 30px;
     font-family: 'palatino-bold';
     top: 40px;
-    left: 300px;
+    left: 0;
 }
 .ing{
     position: absolute;
@@ -572,7 +711,7 @@ body{
 .textocont7{
     position: absolute;
     top: 130px;
-    right: 300px;
+    right: 100px;
 }
 .textonegro{
     color: white;
@@ -585,11 +724,10 @@ body{
     font-size: 30px;
 }
 .contenedor7{
-    height: 520px;
+    height: 600px;
     position: relative;
     margin-right: 5vh;
     margin-left: 10vh;
-    background-color: aqua;
 
 }
 .texto5{
@@ -614,12 +752,14 @@ body{
     height: 80px;
     position: absolute;
     background-color: #FABD04;
+    border: none;
     top: 160px;
     left: 100px;
     border-radius:50px;
 }
 .textop{
     position: absolute;
+    
     top: 20px;
     left: 100px;
     font-size: 20px;
@@ -637,12 +777,15 @@ body{
     top: 35px;
 }
 .ptexto2{
-    position: absolute;
+    display: none;
+    position: relative;
     width: 720px;
     height: 100px;
     top: 260px;
     left: 150px;
-    background-color: #1BD741;
+}
+.show{
+    display: block;
 }
 .ptexto3{
     line-height: 40px;
@@ -651,4 +794,143 @@ body{
     font-size: 18px;
     font-weight: normal;
     font-family:'palatino-blod';
+}
+.botton5{
+    width: 800px;
+    height: 80px;
+    position: relative;
+    background-color: black;
+    top: 280px;
+    left: 100px;
+    border-radius:50px;
+
+}
+.numero2{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.mas{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+.botton6{
+    width: 800px;
+    height: 80px;
+    position: relative;
+   background-color: black;
+    top: 290px;
+    left: 100px;
+    border-radius:50px;
+
+}
+.numero3{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.mas1{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+.what2{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    top: 100px;
+    right: 150px;
+    border-radius: 10px;
+    border: 1px solid#181818;
+
+}
+.whats2{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.textowps{
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#circle{
+    position: absolute;
+    background-color:#0049FF;
+    top: 80px;
+    right: 0;
+    width: 80px;
+    height: 80px;
+}
+.vector{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+/*parte final de la pagina*/
+.contenedorfinal{
+    position: relative;
+    background-color: #F0F0F0;
+    height: 300px;
+    
+}
+.contenedor8{
+    height: 300px;
+    position: relative;
+    margin-right: 5vh;
+    margin-left: 10vh;
+}
+.textofinal{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 50px;
+}
+.msjcorreo{
+    font-weight: bold;
+}
+.horario{
+    font-weight: bold;
+    line-height: 10px;
+}
+.lista3{
+    position:absolute;
+    top: 75px;
+    left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Inicio{
+    color: black;
+}
+.contenedorpadre3{
+    background-color: #DFDFDF;
+    height: 120px;
+    border: none;
+    border-top: 1px solid #181818;
+}
+.contenedor10{
+    height: 120px;
+    position: relative;
+    margin-right: 5vh;
+    margin-left: 10vh;
+}
+#logofinal{
+    position: absolute;
+    top: 40px;
+}
+#derechos{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+
+}
+.links{
+    position: absolute;
+    top: 30px;
+    right: 50px;
 }

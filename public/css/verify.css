@@ -1,0 +1,23 @@
+body{
+    background-color: greenyellow;
+}
+#alerta{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.imagen{
+    position: absolute;
+    top: 40vh;
+    left: 75vh;
+}
+#button{
+    margin-left: 700px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    color: green;
+    background-color: aqua;
+}

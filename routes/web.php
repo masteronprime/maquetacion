@@ -13,10 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-    Route::get('/', function () {
+Route::get('/', function () {
         return view('welcome');
 });
+Route::get('users/registration', function () {
+    return view('verify');
+})->name('users.verify.form');
 
-Route::get('/prueba', function () {
-    return view('index');
-});
+Route::get('users/registration/fail', function () {
+    return view('fail');
+})->name('users.fail.form');
+
